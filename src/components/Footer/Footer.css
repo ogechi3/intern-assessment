@@ -1,0 +1,23 @@
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-down{
+     display: flex;
+    justify-content: space-between;
+   margin-left: 30rem;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 1rem;
+  font-family: var(--font-base);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0;
+}

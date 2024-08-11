@@ -1,0 +1,11 @@
+.food-inspo-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: 0 8rem;
+}
+
+.food-inspo-head p{
+    align-items: end;
+   
+}

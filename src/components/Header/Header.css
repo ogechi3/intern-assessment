@@ -3,6 +3,7 @@ button {
   border-radius: 30px;
   padding: 0 3rem;
   border: none;
+  cursor: pointer;
 }
 
 .header-left h1 {
@@ -20,6 +21,15 @@ button {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
+}
+
+p{
+  opacity: 0.5;
+  font-family: var(--font-base);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  
 }
 
 .header-left {
