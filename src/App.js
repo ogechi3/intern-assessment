@@ -6,6 +6,7 @@ import Menu from './components/Menu/Menu';
 import Instagram from './components/Instagram/Instagram';
 import FoodInspo from './components/FoodInspo/FoodInspo'
 
+
 import Footer from './components/Footer/Footer';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Categories />
       <Menu />
       <Instagram />
+     
       <FoodInspo/>
   
       <Footer />
