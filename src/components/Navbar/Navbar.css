@@ -6,11 +6,15 @@ nav {
   margin: 0.5rem 2rem;
   text-align: center;
 }
-h1 {
+nav h1 {
   font-family: var(--font-alt);
   font-size: 24px;
   font-weight: 400;
   margin-top: 2rem;
+}
+.dot{
+  color: orange;
+  
 }
 
 nav ul {

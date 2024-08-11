@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <h1>Foodieland.</h1>
+        <h1>Foodieland <span className='dot'>.</span></h1>
         <ul>
           <li>Home</li>
           <li>Recipe</li>
