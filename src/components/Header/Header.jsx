@@ -11,7 +11,7 @@ import {FaRegPlayCircle} from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id='home'>
       <div className="header-left">
         <button className="spices">
           <img src={scroll} alt="sroll" />

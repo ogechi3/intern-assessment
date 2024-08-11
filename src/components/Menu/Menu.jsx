@@ -18,7 +18,7 @@ import chef from '../../assets/portrait-happy-male-chef-dressed-uniform 1.png'
 
 const Menu = () => {
    return (
-     <div className="menu">
+     <div className="menu" id='blog'>
        <div>
          <h2>Simple and tasty recipes</h2>
          <p>

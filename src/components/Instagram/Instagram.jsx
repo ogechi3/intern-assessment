@@ -6,7 +6,7 @@ import {FaInstagram} from 'react-icons/fa'
 import './Instagram.css'
 const Instagram = () => {
   return (
-    <div className="insta-pages">
+    <div className="insta-pages" id='about'>
       <div>
         <h1>Check out @foodieland on Instagram</h1>
         <p>

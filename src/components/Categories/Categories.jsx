@@ -9,7 +9,7 @@ import './Categories.css'
 
 const Categories = () => {
   return (
-    <div className='categories'>
+    <div className='categories' id='home'>
        <div className='categories-head'>
         <h2>Categories</h2>
         <button>

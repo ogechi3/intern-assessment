@@ -8,7 +8,7 @@ import './FoodInspo.css'
 
 const FoodInspo = () => {
   return (
-    <div className="heading-food">
+    <div className="heading-food" id="about">
       <div className="food-inspo-head">
         <h1>Try this delicious recipe to make your day</h1>
         <p>

@@ -6,13 +6,25 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <h1>Foodieland <span className='dot'>.</span></h1>
+        <h1>
+          Foodieland <span className="dot">.</span>
+        </h1>
         <ul>
-          <li>Home</li>
-          <li>Recipe</li>
-          <li>Blog</li>
-          <li>Contact</li>
-          <li>About Us</li>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#recipe">Recipe</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+          <li>
+            <a href="#footer">Contact</a>
+          </li>
+          <li>
+            <a href="#about">About Us</a>
+          </li>
         </ul>
         <div className="social-icons">
           <FaFacebookF className="icons" />

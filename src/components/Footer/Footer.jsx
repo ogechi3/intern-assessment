@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 import './Footer.css'
 const Footer = () => {
   return (
-    <div>
+    <div id="footer">
       <FooterPart />
       <div>
         <h1>Foodieland</h1>
@@ -12,19 +12,34 @@ const Footer = () => {
           <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
 
           <ul>
-            <li>Home</li>
-            <li>Recipe</li>
-            <li>Blog</li>
-            <li>Contact</li>
-            <li>About Us</li>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#recipe">Recipe</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
+            <li>
+              <a href="#footer">Contact</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
           </ul>
         </div>
       </div>
       <div className="footer-down">
         <p>
-          © 2020 Flowbase. Powered by <span style={{
-            color:'pink'
-          }}>Webflow</span>{" "}
+          © 2020 Flowbase. Powered by{" "}
+          <span
+            style={{
+              color: "pink",
+            }}
+          >
+            Webflow
+          </span>{" "}
         </p>
         <div className="social-icons">
           <FaFacebookF className="icons" />
