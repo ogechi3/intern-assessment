@@ -1,6 +1,7 @@
 to run this repository, after cloning 
-run npm install
-run npm start
+run npm install,then
+run npm start.
+this is my deployment link:https://assessment-response.netlify.app/
 
 
 # Getting Started with Create React App
